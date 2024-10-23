@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+*{
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    background-image: url("blak.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    position: relative;
+}
+/* .bg_vid_cont{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.bg_vid_cont video{
+    object-fit: cover;
+    }
+.vid_overlay{
+    background: transparent;
+    backdrop-filter: blur(10px);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    object-fit: cover;
+    backdrop-filter: blur(10px);
+    z-index: -1;
+}   */
+.main-dabba{
+    display: flex;
+    justify-content: center;
+    box-shadow: 100px;
+}
+.left-box{
+    background: transparent;
+    border: solid 1px;
+    border-radius: 40px 0 0 40px;
+    backdrop-filter: blur(2.5px);
+    width: 660px;
+    color: white;
+    padding: 40px;
+    position: relative;
+}
+.left-dabba{
+    background:transparent;
+    border: solid 1px;
+    border-radius:0 40px  40px 0;
+    backdrop-filter:blur(2.5px);
+    width: 360px;
+    color: white;
+    padding: 40px;
+    position: relative;
+}
+.left-dabba h1{
+    text-align: center;
+}
+.left-dabba .input-dabba{
+    width: 100%;
+    height: 100%;
+    margin: 30px 0;
+    border-bottom: 2px solid #e0e6ec;
+    margin: 30px 0;
+}
+.input-dabba{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    padding-top: 15px;
+
+    border-bottom: 2px solid #162938;
+    margin: 30px 0;    
+}
+.input-dabba input{
+    width: 100%;
+    height: 100%;
+    background:transparent;
+    border: none;
+    outline: none;
+    color: aliceblue;
+}
+.input-dabba label {
+    position: absolute;
+    top: 50%;
+    left : 3px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    font-weight: 500; 
+    pointer-events: none;
+    transition: 0.5s;
+}
+.input-dabba input:focus~label,
+.input-dabba input:valid~label{
+    
+    top:-5px;
+}
+
+.input-dabba i{
+    position:absolute;
+    right:20px;
+    top: 25%;
+}
+.rem-forgot{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: -5px;
+    margin-left: 68px;
+}
+.rem-forgot a{
+    color: white;
+}
+.rem-forgot input{
+    margin-right: 7px;
+} 
+.login_butt{
+    font-family: "Poppins";
+    font-size: 16px;
+    height: 50px;
+    width:200px;
+    border: solid 2px white;
+    border-radius: 45px;
+    background-color: black;
+}
+.butn{
+    display: flex;
+    justify-content: center;
+    outline: none;
+}
+.butn2{
+    margin-left: -5px;
+}
+.reg{
+    margin-left: 45px;
+    margin-top: 20px;
+}
+.right-dabba{
+    justify-content: center;
+    width:700px;
+    border:solid 1px;
+    border-color: white;
+    border-radius:0  40px 40px 0;
+    background: transparent;
+    backdrop-filter: blur(2.5px);
+}
+.right-dabba h1{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 150px;
+}
+.right-dabba p{
+    color: white;
+    margin: 20px 40px 0 60px;
+}
+
+
+
+
+.addr{
+    position: relative;
+    padding-top: 50px;
+}
+
